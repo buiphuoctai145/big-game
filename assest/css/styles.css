@@ -1,8 +1,17 @@
 .hhhs {
-    width: 4rem;
+  width: 4rem;
 }
 
 img.hinh-anh-tram {
-    /* height: 40rem; */
-    width: 20rem
+  /* height: 40rem; */
+  width: 20rem;
+}
+
+.group-2 .hinh-anh-tram {
+    transform: rotate(180deg);
+}
+
+.group-1 .two {
+    margin: 3rem 0 3rem 0;
+    transform: rotate(90deg);
 }
