@@ -4,7 +4,18 @@
 
 img.hinh-anh-tram {
   /* height: 40rem; */
-  width: 20rem;
+  width: 100%;
+}
+img.key {
+  width: 2rem;
+}
+
+.key-left {
+  width: fit-content
+}
+
+.key-right {
+  width: 75%
 }
 
 .group-1 .two {
