@@ -21,14 +21,12 @@
             <p class="display-6 font-bold">Chúc mừng đội đã hoàn thành trò chơi lớn</p>
             <div id="time" class="mt-5 display-1 fw-bold"></div>
             <p class="fw-light mt-4">Hãy chụp lại ảnh màn hình này và gửi vào group Zalo của đội trưởng</p>
-
         </div>
     </div>
     <script>
         function formatTime(number) {
             return number < 10 ? '0' + number : number;
         }
-
         let now = new Date();
         let hours = formatTime(now.getHours());
         let minutes = formatTime(now.getMinutes());
